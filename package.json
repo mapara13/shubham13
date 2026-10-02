@@ -1,0 +1,19 @@
+{
+  "name": "hrms_hybrid_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3",
+    "allure": "^3.19.1",
+    "allure-commandline": "^2.46.1",
+    "allure-playwright": "^3.13.0",
+    "commandline": "^0.0.2"
+  }
+}

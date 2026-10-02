@@ -1,0 +1,4 @@
+application open
+wait for 3000sec
+application open
+wait for 3000sec
