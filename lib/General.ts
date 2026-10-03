@@ -30,8 +30,8 @@ import { gobal } from "./Gobal";
     }
     async fileupload(){
           const frame = await this.page.frameLocator(this.frame)
-        await frame.locator(this.file_uploaded).setInputFiles("C:\\Users\\DELL\\Desktop\\shubham\\WhatsApp Image 2026-05-11 at 6.11.32 PM.jpeg")
-         console.log('file upload')
+        await frame.locator(this.file_uploaded).setInputFiles(".\\Test-data\\pic.jpeg")
+         console.log('file upload') //test-data/WhatsApp Image 2026-05-11 at 6.11.32 PM.jpeg HRMS_Hybrid_Project\Test-data\WhatsApp Image 2026-05-11 at 6.11.32 PM.jpeg
     }
     async save(){
         const frame = await this.page.frameLocator(this.frame)
